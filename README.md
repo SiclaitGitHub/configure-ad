@@ -12,7 +12,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machine/Computer)
+- Domain Controller (Virtual Machine/Computer)
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
