@@ -182,7 +182,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="1408" alt="Screen Shot 2023-07-12 at 2 20 21 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/13609164-8ccb-4424-9d70-36ae0a39f69e">
 
-14. Change VM1 to Domain Server
+14. Join VM1 to Domain Server
 
 - Right click the "Start" botton on VM1 and select "System"
 - Click on "Rename this PC (Advanced)" in the coloum on the right os the "System Settings" window
