@@ -206,6 +206,13 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
  - Typer "Domain users" into the search bar and click "Check Names"
  - Add the underlined resulst of the search.
 
+<img width="814" alt="Screen Shot 2023-07-12 at 2 53 50 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/14e28834-2f9d-4138-8d0f-847489469edf">
+
+16. 
+
+- Open AD (Users and Computers) in DC1
+- Expand "mydomain.com" then expand "Users" and "domian Users" will be visible
+
 
 
 
