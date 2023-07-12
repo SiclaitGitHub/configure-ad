@@ -71,20 +71,23 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 </p><img width="1024" alt="Screen Shot 2023-07-11 at 10 20 13 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/631f3e56-cac2-4c73-bc88-9ba14605fbf9">
 <br />
 
-4. Ping DC1 from VM1 ussing DC1's Private IP Addrress
+4. Ping (Perpectual Ping) DC1 from VM1 using DC1's Private IP Addrress
    
 - Open the "Command Prompt" application on VM1 remote desktop.
-- Type "ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will startthe perpetual ping from VM1 to DC1
+- Type "ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will start the perpetual ping from VM1 to DC1
 - Notice the the perpetual ping timesout due to the blockage of ICMP traffic due to the Network Security Group or "Firewall" on DC1
 
 
-<img width="1145" alt="Screen Shot 2023-07-11 at 10 26 50 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/8a25e508-2b66-4a2e-b4fa-78a21f8cb622">
-
+<img width="1439" alt="Screen Shot 2023-07-12 at 10 15 27 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/2ab18f4b-5726-4338-a7a5-c069d69bcf0c">
 
 5. Open up ICMP traffic on DC1's firewall using wf.msc application
 
 - Open Windows Defender Firewall application by typing "wf.msc" in the Start menu search bar
-- 
+- Select "Inbound Rules" in the top left corner of the "wf.msc" applicantion on VM1
+- Click on the "Protocol" column to sort data
+- Locate the "ICMP V4" proptocol. This is the protocol that "ping" uses
+- Enable both "Core Networking Diagnostics - ICMP Echo Request (ICMPv4-in)". Make sure to enable both rules that share this title.
+-  
 
 
 
