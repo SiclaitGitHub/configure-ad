@@ -80,7 +80,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="1439" alt="Screen Shot 2023-07-12 at 10 15 27 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/2ab18f4b-5726-4338-a7a5-c069d69bcf0c">
 
-5. Open up ICMP traffic on DC1's firewall using wf.msc application
+5. Open up ICMP traffic on DC1's firewall using wf.msc application on VM1
 
 - Open Windows Defender Firewall application by typing "wf.msc" in the Start menu search bar
 - Select "Inbound Rules" in the top left corner of the "wf.msc" applicantion on VM1
