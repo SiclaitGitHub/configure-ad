@@ -93,10 +93,30 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 <img width="1105" alt="Screen Shot 2023-07-12 at 10 17 49 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/3d1fc3ec-ddcc-4084-aad7-778ea6afc2bc">
 
 
-6. Confirm ICMP traffic on VM1
+6. Confirm ICMP traffic between VM1 and DC1
 
 - Go back to the VM1 remote desktop. You will notice that the perpetual ping that was created on VM1 is now recieving reply traffic from DC1
+
+
+<img width="926" alt="Screen Shot 2023-07-12 at 10 25 09 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/a08a15d6-b74d-463c-b1c1-051461cc8f7c">
+
+7. Install Active Directly Application
+
+- Open "Server Manager" application on DC1.
+- Select "New Roles & Features"
+- Select "Active Directory Domain Services" and Click "Add Features"
+- Click "Install" to being installation of Active Directory
+
+
+<img width="1417" alt="Screen Shot 2023-07-12 at 10 29 12 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/f302162e-90df-43c4-be5a-3b14fd4c25fa">
+
+
+8. Promote Server Into Domain Controller
+
+- Select the yeller "!" icon in the the top lect window if the Server Managmer on DC1
+- Select "Promote This Server into A Domain Controller"
 - 
+
 
 
 
