@@ -129,7 +129,8 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Reestablish remote connection with DC1 (using DC1's Public IP Address) as "mydomain.com\User305". These are the log in cridentials we created when "New Forest" was created.
 
 
-<img width="975" alt="Screen Shot 2023-07-12 at 12 04 06 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/b6d56bce-0ca4-4d12-ae11-ef0f1efac4dd">
+<img width="893" alt="Screen Shot 2023-07-12 at 12 31 29 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/878a4f38-b282-47f7-a1e1-14603305bffa">
+
 
 10. Create Admin User and Organizational User in AD
 
