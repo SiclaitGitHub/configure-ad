@@ -74,7 +74,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 4. Ping DC1 from VM1 ussing DC1's Private IP Addrress
    
 - Open the "Command Prompt" application on VM1 remote desktop.
-- Type "Ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will startthe perpetual ping from VM1 to DC1
+- Type "ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will startthe perpetual ping from VM1 to DC1
 - Notice the the perpetual ping timesout due to the blockage of ICMP traffic due to the Network Security Group or "Firewall" on DC1
 - 
 
