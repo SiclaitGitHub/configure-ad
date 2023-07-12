@@ -163,6 +163,33 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Lo out of DC1
 - Log back in as "Jane Doe" using "mydomain.com\jane_admin" as the user name.
 
+  
+
+
+
+<img width="1436" alt="Screen Shot 2023-07-12 at 2 29 00 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/a629673e-b5ea-411e-8fde-a124a80ee51d">
+
+13. Change DNS Server settings for VM1 in AZure
+
+- Go to VM1 in Azure.
+- Click on the "Networking" tab on the VM1 window in Azure
+- Click on the "network Interface" hyberlink (Ex: vm1460)
+- Click on "DNS Servers" on the "vm1460" the (Network Interface window).
+- Select "Custom"
+- Enert DC1's Private IP Address (10.0.0.6) in the "Domain Server" Field the click "Save"
+- Select "Restart" on the VM1 page of Azure. This will flush the domina cache. 
+
+
+<img width="1408" alt="Screen Shot 2023-07-12 at 2 20 21 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/13609164-8ccb-4424-9d70-36ae0a39f69e">
+
+14. Change VM1 to Domain Server
+
+- Right click the "Start" botton on VM1 and select "System"
+- Click on "Rename this PC (Advanced)" in the coloum on the right os the "System Settings" window
+- Click on "Change" under the "Computer Name" tab of the "System properties" window.
+- Click on "Domain"
+- 
+
 
 
 
