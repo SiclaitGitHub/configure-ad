@@ -65,8 +65,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 - Copy the Public IP Addresses of Both VM1 and DC1
 - Click "Add PC" on the remote desktop and past them in to the log in page.
-- 
+- Use the log in cridentials created in Azure when setting up VM1 and DC1
 
--
 </p>
 <br />
