@@ -115,7 +115,14 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 - Select the yeller "!" icon in the the top lect window if the Server Managmer on DC1
 - Select "Promote This Server into A Domain Controller"
+
+
+<img width="941" alt="Screen Shot 2023-07-12 at 10 39 02 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/782b78c8-f7b1-4f1c-896b-17dcc67fa33a">
+
+9. Configure Active Directory Domin Services
+
 - 
+
 
 
 
