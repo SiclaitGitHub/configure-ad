@@ -148,6 +148,20 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 - Right clikc "_ADMINS" select "New" then click on "User"
 - Creae an admin account name "Jane Doe"
+- Create log in cridnetials - Username "Jane_Doe@mydomian.com" Password "Password347!"
+- When creating the password uncheck the "User must change password at next log in" box before clicking "Next"
+
+
+<img width="1028" alt="Screen Shot 2023-07-12 at 12 48 49 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/9cf57e4c-b46b-428b-ac0a-1efb637d7d47">
+
+12. Establish "Jane Doe" as an Administrative User
+
+- In the AD interface window select "Jane Doe" and click on "Actions" then "Properties".
+- When in the "Properties" window of the "Jane Doe" AD user window select the "Memebr Of" tab.
+- Type the work "Domain" in the search back then click on "Search Names"
+- A list of search results will appear. Select "Domain Admins" then click "OK"
+- Lo out of DC1
+- Log back in as "Jane Doe" using "mydomain.com\jane_admin" as the user name.
 
 
 
