@@ -189,7 +189,10 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Click on "Rename this PC (Advanced)" in the coloum on the right os the "System Settings" window
 - Click on "Change" under the "Computer Name" tab of the "System properties" window.
 - Click on "Domain"
-- 
+- Type "mydomain.com" and click "OK"
+- Enter admin log in cridentials "mydomain.com\jane_admin"
+- VM1 will restart. We can now use the domain admin account credientials to log into VM1
+  
 
 
 
