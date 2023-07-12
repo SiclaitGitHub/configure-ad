@@ -119,10 +119,14 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="941" alt="Screen Shot 2023-07-12 at 10 39 02 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/782b78c8-f7b1-4f1c-896b-17dcc67fa33a">
 
-9. Configure Active Directory Domin Services
+9. Configure Active Directory Domain Services
 
+- Select "Add New Forest" in the "Deployment Configuration" window found through the Server Manager application on DC1
+- Title the new forest "mydomain.com" and click "Next" 
+- Set log in creidentials 
+- Click "Next" for all prompts until "Insatall" buttom becomes avilable. Then click "Install"
 - 
-
+- 
 
 
 
