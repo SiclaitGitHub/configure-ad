@@ -8,15 +8,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute]([https://www.youtube.com](https://www.youtube.com/watch?v=MHsI8hJmggI))
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machine/Computer)
-- Domain Controller (Virtual Machine with AD Installed)
+- Microsoft Azure (Virtual Machine/Computer = "VM1")
+- Domain Controller (Virtual Machine with AD Installed = "DC1")
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
+- PowerShell ISE
 
 <h2>Operating Systems Used </h2>
 
