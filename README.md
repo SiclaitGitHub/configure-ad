@@ -184,6 +184,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 14. Join VM1 to Domain Server
 
+- Log back in to VM1 using "User305" cridentials.
 - Right click the "Start" botton on VM1 and select "System"
 - Click on "Rename this PC (Advanced)" in the coloum on the right os the "System Settings" window
 - Click on "Change" under the "Computer Name" tab of the "System properties" window.
