@@ -51,14 +51,22 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 2. Create Domain Controller VM (DC1) in Azure
 
 - For DC1's Operating System, select Windows Server 2022 Datacenter
-- Make sure DC! is in the same network and region as VM1
+- Make sure DC1 is in the same network and region as VM1
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p><img width="600" alt="Screen Shot 2023-07-11 at 10 08 32 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/c1a74bef-1c85-4530-9698-a5e0baf36a76">
+
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p>  
+3. Connect VM1 and DC1 to the remote deskotp. 
+
+- Copy the Public IP Addresses of Both VM1 and DC1
+- Click "Add PC" on the remote desktop and past them in to the log in page.
+- 
+
+-
 </p>
 <br />
