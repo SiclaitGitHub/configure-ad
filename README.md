@@ -76,7 +76,16 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Open the "Command Prompt" application on VM1 remote desktop.
 - Type "ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will startthe perpetual ping from VM1 to DC1
 - Notice the the perpetual ping timesout due to the blockage of ICMP traffic due to the Network Security Group or "Firewall" on DC1
+
+
+<img width="1145" alt="Screen Shot 2023-07-11 at 10 26 50 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/8a25e508-2b66-4a2e-b4fa-78a21f8cb622">
+
+
+5. Open up ICMP traffic on DC1's firewall using wf.msc application
+
+- Open Windows Defender Firewall application by typing "wf.msc" in the Start menu search bar
 - 
+
 
 
 
