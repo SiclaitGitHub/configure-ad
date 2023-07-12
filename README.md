@@ -67,5 +67,16 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Click "Add PC" on the remote desktop and past them in to the log in page.
 - Use the log in cridentials created in Azure when setting up VM1 and DC1
 
-</p>
+
+</p><img width="1024" alt="Screen Shot 2023-07-11 at 10 20 13 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/631f3e56-cac2-4c73-bc88-9ba14605fbf9">
 <br />
+
+4. Ping DC1 from VM1 ussing DC1's Private IP Addrress
+   
+- Open the "Command Prompt" application on VM1 remote desktop.
+- Type "Ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will startthe perpetual ping from VM1 to DC1
+- Notice the the perpetual ping timesout due to the blockage of ICMP traffic due to the Network Security Group or "Firewall" on DC1
+- 
+
+
+
