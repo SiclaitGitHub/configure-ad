@@ -194,7 +194,8 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - VM1 will restart. We can now use the domain admin account credientials to log into VM1
   
 
-<img width="1400" alt="Screen Shot 2023-07-12 at 2 45 11 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/306ee7bb-d795-4c1f-83b7-5494334ed943">
+<img width="1360" alt="Screen Shot 2023-07-12 at 2 51 22 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/f7e6c061-d897-468e-bef5-448670fb8bec">
+
 
 15. Enable "Domain Users' with remote access to VM1
 
