@@ -140,7 +140,15 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Or click "Action" after selecting "mydomain.com" and then "select "New" then "Organizational User"
 - Create a Organizational User titled "_EMPLOYEES"
 - Repeat this process and create an Organizational User ttiled "_ADKINS"
-- 
+
+
+<img width="816" alt="Screen Shot 2023-07-12 at 12 41 05 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/6e3bcd97-a879-4728-8f3e-5319b956efca">
+
+11. Create new "User" under "_ADMINS" tab in AD (Users and Computers)
+
+- Right clikc "_ADMINS" select "New" then click on "User"
+- Creae an admin account name "Jane Doe"
+
 
 
 
