@@ -125,7 +125,8 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Title the new forest "mydomain.com" and click "Next" 
 - Set log in creidentials 
 - Click "Next" for all prompts until "Insatall" buttom becomes avilable. Then click "Install"
-- 
+- Keep in mind you may be disconnected from DC1's remote connection after installation is complete. 
+- Reestablish remote connection with DC1 to continue the Ative Directory configuration process.
 - 
 
 
