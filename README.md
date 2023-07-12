@@ -100,7 +100,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="926" alt="Screen Shot 2023-07-12 at 10 25 09 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/a08a15d6-b74d-463c-b1c1-051461cc8f7c">
 
-7. Install Active Directly Application
+7. Install Active Directly Application (AD)
 
 - Open "Server Manager" application on DC1.
 - Select "New Roles & Features"
@@ -126,8 +126,21 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Set log in creidentials 
 - Click "Next" for all prompts until "Insatall" buttom becomes avilable. Then click "Install"
 - Keep in mind you may be disconnected from DC1's remote connection after installation is complete. 
-- Reestablish remote connection with DC1 to continue the Ative Directory configuration process.
+- Reestablish remote connection with DC1 (using DC1's Public IP Address) as "mydomain.com\User305". These are the log in cridentials we created when "New Forest" was created.
+
+
+<img width="975" alt="Screen Shot 2023-07-12 at 12 04 06 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/b6d56bce-0ca4-4d12-ae11-ef0f1efac4dd">
+
+10. Create Admin User and Organizational User in AD
+
+- Select "Tools" the top right corner of the AD window and select "Active Directory Users and Computuers"
+- This will open the stadard AD user interface.
+- Right click the "mydoinain.com" file then "New" then "Organizational User" in the top left corner of the AD interface window
+- Create a Organizational User titled "_EMPLOYEES"
+- Repeat this process and create an Organizational User ttiled "_ADKINS"
 - 
+
+
 
 
 
