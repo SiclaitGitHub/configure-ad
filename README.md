@@ -80,14 +80,23 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="1439" alt="Screen Shot 2023-07-12 at 10 15 27 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/2ab18f4b-5726-4338-a7a5-c069d69bcf0c">
 
-5. Open up ICMP traffic on DC1's firewall using wf.msc application on VM1
+5. Open up ICMP traffic on DC1's firewall using wf.msc application on DC1
 
 - Open Windows Defender Firewall application by typing "wf.msc" in the Start menu search bar
-- Select "Inbound Rules" in the top left corner of the "wf.msc" applicantion on VM1
+- Select "Inbound Rules" in the top left corner of the "wf.msc" applicantion on DC1
 - Click on the "Protocol" column to sort data
 - Locate the "ICMP V4" proptocol. This is the protocol that "ping" uses
 - Enable both "Core Networking Diagnostics - ICMP Echo Request (ICMPv4-in)". Make sure to enable both rules that share this title.
--  
+
+
+
+<img width="1105" alt="Screen Shot 2023-07-12 at 10 17 49 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/3d1fc3ec-ddcc-4084-aad7-778ea6afc2bc">
+
+
+6. Confirm ICMP traffic on VM1
+
+- Go back to the VM1 remote desktop. You will notice that the perpetual ping that was created on VM1 is now recieving reply traffic from DC1
+- 
 
 
 
