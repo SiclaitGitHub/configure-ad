@@ -137,6 +137,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Select "Tools" the top right corner of the AD window and select "Active Directory Users and Computuers"
 - This will open the stadard AD user interface.
 - Right click the "mydoinain.com" file then "New" then "Organizational User" in the top left corner of the AD interface window
+- Or click "Action" after selecting "mydomain.com" and then "select "New" then "Organizational User"
 - Create a Organizational User titled "_EMPLOYEES"
 - Repeat this process and create an Organizational User ttiled "_ADKINS"
 - 
