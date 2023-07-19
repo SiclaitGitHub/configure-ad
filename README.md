@@ -169,7 +169,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="1436" alt="Screen Shot 2023-07-12 at 2 29 00 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/a629673e-b5ea-411e-8fde-a124a80ee51d">
 
-13. Change DNS Server settings for VM1 in AZure
+13. Change DNS Server settings for VM1 in Azure
 
 - Go to VM1 in Azure.
 - Click on the "Networking" tab on the VM1 window in Azure
