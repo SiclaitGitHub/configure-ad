@@ -141,7 +141,7 @@ ICMP (Internet Control Message Protocol) is a network protocol used to send erro
 
 6. Confirm ICMP traffic between VM1 and DC1
 
-- Go back to the VM1 remote desktop. You will notice that the perpetual ping that was created on VM1 is now receiving reply traffic from DC1.
+- Go back to "Command Promt" application on VM1. You will notice that the perpetual ping that was created on VM1 is now receiving reply traffic from DC1.
 
 
 <img width="926" alt="Screen Shot 2023-07-12 at 10 25 09 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/a08a15d6-b74d-463c-b1c1-051461cc8f7c">
