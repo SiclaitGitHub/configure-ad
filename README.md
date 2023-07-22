@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create Virtual Machine in Azure (Virtual Machine with AD Installed = "DC1")
 - Connect VM1 and DC1 to Microsoft Remote Desktop
 - Ping (Perpetual Ping) DC1 from VM1 using DC1's Private IP Address
-- Open up ICMP traffic on DC1's firewall using "wf.msc" application on DC1
+- Enable ICMP traffic on DC1's firewall using "wf.msc" application on DC1 
 - Confirm ICMP traffic between VM1 and DC1
 - Install Active Directory Application (AD)
 - Promote Server Into Domain Controller
