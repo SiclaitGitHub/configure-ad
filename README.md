@@ -82,7 +82,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Select "Azure Virtual Machine".
 - Selecte a "Resouce Group".
 - Create VM name.
-- Make sure DC1 is in the same network and region as VM1.
+- Make sure DC1 is in the same Resource Group and Region as VM1.
 - Select "Windows Server 2022 Datacenter" as you OS in the drop down menu titled "Image".
 - Select your CPU "Size".
 - Create Login Credentials.
