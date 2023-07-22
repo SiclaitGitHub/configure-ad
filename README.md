@@ -150,7 +150,8 @@ ICMP (Internet Control Message Protocol) is a network protocol used to send erro
 
 - Open "Server Manager" application on DC1.
 - Select "New Roles & Features".
-- Select "Active Directory Domain Services" and Click "Add Features".
+- Select "Active Directory Domain Services" and Click "Add Role and Features".
+- Click "Next" untill the opyion to install becomes available. 
 - Click "Install" to begin installation of Active Directory.
 - Restart DC1 once installation is complete.
 
@@ -162,7 +163,7 @@ ICMP (Internet Control Message Protocol) is a network protocol used to send erro
 
    A Domain Controller (DC) is a server in a Windows-based network that serves as a central authority for security, authentication, and management of network resources. It plays a crucial role in the implementation of Active Directory (AD), which is Microsoft's directory service that provides a hierarchical structure for organizing and managing network resources, such as user accounts, computers, groups, and shared resources like printers and file servers.
 
-- Select the yeller "!" icon in the top left corner of the Server Manager window on DC1.
+- Select the yellow "!" icon in the top left corner of the Server Manager window on DC1.
 - Select "Promote This Server into A Domain Controller".
 
 
@@ -172,10 +173,11 @@ ICMP (Internet Control Message Protocol) is a network protocol used to send erro
 
 - Select "Add New Forest" in the "Deployment Configuration" window found through the Server Manager application on DC1.
 - Title the new forest "mydomain.com" and click "Next”. 
-- Set login credentials.
+- Create login credentials.
 - Click "Next" for all prompts until "Install" button becomes available. Then click "Install".
 - Keep in mind, you may be disconnected from DC1's remote connection after installation is complete. 
-- Reestablish remote connection with DC1 (using DC1's Public IP Address) as "mydomain.com\User305". These are the login credentials we created when "New Forest" was created.
+- Reestablish remote connection with DC1 (using DC1's Public IP Address) as "mydomain.com\User305".
+- log in using the credentials we created when "New Forest" was created.
 
 
 <img width="893" alt="Screen Shot 2023-07-12 at 12 31 29 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/878a4f38-b282-47f7-a1e1-14603305bffa">
