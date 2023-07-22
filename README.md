@@ -99,7 +99,9 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 </p>
 <p>  
-3. Connect VM1 and DC1 to Microsoft Remote Desktop 
+3. Connect VM1 and DC1 to Microsoft Remote Desktop
+
+Microsoft Remote Desktop (often abbreviated as "RDP" for Remote Desktop Protocol) is a technology developed by Microsoft that allows users to access and control a computer remotely over a network. It enables you to connect to a remote computer from another device, such as your personal computer, laptop, or mobile device, as long as both devices are connected to the internet or are part of the same local network.
 
 - Copy the Public IP Addresses of Both VM1 and DC1.
 - Click "Add PC" on the remote desktop and paste them into the login page.
