@@ -252,7 +252,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="1386" alt="Screen Shot 2023-07-12 at 3 08 47 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/eb318f8c-7aec-4f2c-84fb-ea31bf2fa365">
 
-16. Create users and use a random user to log into DC1
+17. Create users and use a random user to log into DC1
     
 - Open PowerShell ISE in DC1 as an admin (Jane_admin)
 - Select "Run as Administrator" before opening PowerShell ISE
