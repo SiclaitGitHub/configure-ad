@@ -24,23 +24,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
-1. Create Virtual Machines in Azure (Windows 10 = "VM1"
-2. Create Virtual Macine in Azure (Virtual Machine with AD Installed = "DC1")
-3. Connect VM1 and DC1 to Microsoft Remote Desktop
-4. Ping (Perpetual Ping) DC1 from VM1 using DC1's Private IP Address
-5. Open up ICMP traffic on DC1's firewall using wf.msc application on DC1
-6. Confirm ICMP traffic between VM1 and DC1
-7. Install Active Directory Application (AD)
-8. Promote Server Into Domain Controller
-9. Configure Active Directory Domain Services
-10. Create Admin User and Organizational User in AD
-11. Create new "User" under "_ADMINS" tab in AD (Users and Computers)
-12. Establish "Jane Doe" as an Administrative User
-13. Change DNS Server settings for VM1 in Azure
-14. Join VM1 to Domain Server
-15. Enable "Domain Users' with remote access to VM1
-16. Locate Domain Users in AD on DC1
-17. Create users and use a random user to log into DC1
+- Create Virtual Machines in Azure (Windows 10 = "VM1"
+- Create Virtual Macine in Azure (Virtual Machine with AD Installed = "DC1")
+- Connect VM1 and DC1 to Microsoft Remote Desktop
+- Ping (Perpetual Ping) DC1 from VM1 using DC1's Private IP Address
+- Open up ICMP traffic on DC1's firewall using wf.msc application on DC1
+- Confirm ICMP traffic between VM1 and DC1
+- Install Active Directory Application (AD)
+- Promote Server Into Domain Controller
+- Configure Active Directory Domain Services
+- Create Admin User and Organizational User in AD
+- Create new "User" under "_ADMINS" tab in AD (Users and Computers)
+- Establish "Jane Doe" as an Administrative User
+- Change DNS Server settings for VM1 in Azure
+- Join VM1 to Domain Server
+- Enable "Domain Users' with remote access to VM1
+- Locate Domain Users in AD on DC1
+- Create users and use a random user to log into DC1
 
 <h2>Deployment and Configuration Steps</h2>
 
