@@ -54,18 +54,18 @@ Azure is a cloud computing platform and service offered by Microsoft. It provide
 
 A virtual machine (VM) on Microsoft Azure is a computing resource that uses software instead of a physical computer to run programs and deploy apps. Each VM instance can run its own operating system (OS), which means multiple VMs can run different operating systems on the same physical machine.
 
-- In Azure, Click on the "Virtual Machine" Icone
-- Click on "Crete"
-- Select "Azure Virtual Machine"
-- Selecte a Resouce Group
-- Create VM name
-- Select the region
-- Select Windows 10 as you OS in the drop down menu titled "Image"
-- Select your CPU "Size"
-- Create Login Credentials
-- Check the box titled "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."
-- Click "Review + Create"
-- Click "Create"
+- In Azure, Click on the "Virtual Machine" Icon.
+- Click on "Create".
+- Select "Azure Virtual Machine".
+- Select a "Resouce Group".
+- Create VM name.
+- Select the region.
+- Select Windows 10 as you OS in the drop down menu titled "Image".
+- Select your CPU "Size".
+- Create Login Credentials.
+- Check the box titled "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.".
+- Click "Review + Create".
+- Click "Create".
 
 Create a new Azure resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
 
@@ -77,18 +77,18 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 2. Create Domain Controller VM (DC1) in Azure
 
 
-- In Azure, Click on the "Virtual Machine" Icone
-- Click on "Crete"
-- Select "Azure Virtual Machine"
-- Selecte a "Resouce Group"
-- Create VM name
+- In Azure, Click on the "Virtual Machine" Icon.
+- Click on "Create".
+- Select "Azure Virtual Machine".
+- Selecte a "Resouce Group".
+- Create VM name.
 - Make sure DC1 is in the same network and region as VM1.
-- Select "Windows Server 2022 Datacenter" as you OS in the drop down menu titled "Image"
-- Select your CPU "Size"
-- Create Login Credentials
-- Check the box titled "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."
-- Click "Review + Create"
-- Click "Create"
+- Select "Windows Server 2022 Datacenter" as you OS in the drop down menu titled "Image".
+- Select your CPU "Size".
+- Create Login Credentials.
+- Check the box titled "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.".
+- Click "Review + Create".
+- Click "Create".
   
 </p>
 <br />
