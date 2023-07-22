@@ -24,6 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
+
 - Create Virtual Machines in Azure (Windows 10 = "VM1"
 - Create Virtual Macine in Azure (Virtual Machine with AD Installed = "DC1")
 - Connect VM1 and DC1 to Microsoft Remote Desktop
