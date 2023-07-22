@@ -15,7 +15,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machine/Computer = "VM1")
 - Domain Controller (Virtual Machine with AD Installed = "DC1")
 - Microsoft Remote Desktop
-- Active Directory Domain Services
+- Active Directory Domain Services (AD)
 - PowerShell ISE
 
 <h2>Operating Systems Used </h2>
