@@ -48,7 +48,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="908" alt="Screen Shot 2023-07-10 at 1 30 29 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/4f97a83e-1c37-4210-9dc1-8530cb7f91bf">
 
 
-1. Set up your Azure Virtual Machine (VM1)
+1. Create your Virtual Machine in Azure (VM1)
 
 Azure is a cloud computing platform and service offered by Microsoft. It provides a wide range of cloud services that enable organizations to build, deploy, and manage applications and services through Microsoft-managed data centers.
 
@@ -74,7 +74,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 </p>
 <p>
 
-2. Create Domain Controller VM (DC1) in Azure
+2. Create Domain Controller VM in Azure (DC1)
 
 
 - In Azure, Click on the "Virtual Machine" Icon.
@@ -99,7 +99,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 </p>
 <p>  
-3. Connect VM1 and DC1 to the Microsoft Remote Desktop 
+3. Connect VM1 and DC1 to Microsoft Remote Desktop 
 
 - Copy the Public IP Addresses of Both VM1 and DC1.
 - Click "Add PC" on the remote desktop and paste them into the login page.
