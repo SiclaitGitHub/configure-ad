@@ -41,7 +41,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Join VM1 to Domain Server
 - Enable "Domain Users' with remote access to VM1
 - Locate Domain Users in AD on DC1.
-- Create users and use a random user to log into DC1.
+- Create users and use a random user to log into DC1
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -54,7 +54,7 @@ Azure is a cloud computing platform and service offered by Microsoft. It provide
 
 A virtual machine (VM) on Microsoft Azure is a computing resource that uses software instead of a physical computer to run programs and deploy apps. Each VM instance can run its own operating system (OS), which means multiple VMs can run different operating systems on the same physical machine.
 
-- In Azure, Click on the "Virtual Machine" Icon.
+- In Azure, Click on the "Virtual Machine" icon.
 - Click on "Create".
 - Select "Azure Virtual Machine".
 - Select a "Resource Group".
@@ -67,7 +67,7 @@ A virtual machine (VM) on Microsoft Azure is a computing resource that uses soft
 - Click "Review + Create".
 - Click "Create".
 
-Create a new Azure resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
+In Azure create a new resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
 
 <p><img width="918" alt="Screen Shot 2023-07-11 at 9 51 36 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/0cfdf26d-c770-4180-8dd1-d05351d4e8db">
 
