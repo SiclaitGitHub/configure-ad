@@ -110,6 +110,10 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 <br />
 
 4. Ping (Perpetual Ping) DC1 from VM1 using DC1's Private IP Address
+
+"Ping" is a basic network utility used to test the reachability of a host (a device or computer) on an Internet Protocol (IP) network, and to measure the round-trip time for data packets to travel from the source device to the destination device and back. The term "ping" comes from the sonar technology, where a sound pulse (ping) is sent to detect objects underwater.
+
+When you "ping" a host, your computer sends a small data packet to the destination device's IP address. If the destination device is reachable and online, it will respond by sending back a reply to the source device. The time taken for this round-trip communication is measured and displayed as the "ping time" or "round-trip time."
    
 - Open the "Command Prompt" application on VM1. This application can be found in the “Start”menu.
 - Type "ping -t 10.0.0.6" (DC1's Private IP Address) the press "Enter". This will start the perpetual ping from VM1 to DC1.
