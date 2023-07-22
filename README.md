@@ -152,6 +152,7 @@ ICMP (Internet Control Message Protocol) is a network protocol used to send erro
 - Select "New Roles & Features".
 - Select "Active Directory Domain Services" and Click "Add Features".
 - Click "Install" to begin installation of Active Directory.
+- Restart DC1 once installation is complete.
 
 
 <img width="1417" alt="Screen Shot 2023-07-12 at 10 29 12 AM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/f302162e-90df-43c4-be5a-3b14fd4c25fa">
