@@ -126,6 +126,8 @@ When you "ping" a host, your computer sends a small data packet to the destinati
 
 5. Open up ICMP traffic on DC1's firewall using wf.msc application on DC1
 
+ICMP (Internet Control Message Protocol) is a network protocol used to send error messages and operational information about IP (Internet Protocol) network communication. It is an integral part of the Internet Protocol Suite and operates at the Network Layer (Layer 3) of the OSI model. ICMP is typically used by networking devices, routers, and hosts to communicate network-related information and perform various network management functions.
+
 - Open Windows Defender Firewall application by typing "wf.msc" in the Start menu search bar.
 - Select "Inbound Rules" in the top left corner of the "wf.msc" application on DC1.
 - Click on the "Protocol" column to sort data.
@@ -156,6 +158,8 @@ When you "ping" a host, your computer sends a small data packet to the destinati
 
 
 8. Promote Server Into Domain Controller
+
+   A Domain Controller (DC) is a server in a Windows-based network that serves as a central authority for security, authentication, and management of network resources. It plays a crucial role in the implementation of Active Directory (AD), which is Microsoft's directory service that provides a hierarchical structure for organizing and managing network resources, such as user accounts, computers, groups, and shared resources like printers and file servers.
 
 - Select the yeller "!" icon in the top left corner of the Server Manager window on DC1.
 - Select "Promote This Server into A Domain Controller".
@@ -206,13 +210,15 @@ When you "ping" a host, your computer sends a small data packet to the destinati
 - Log out of DC1.
 - Log back in as "Jane Doe" using "mydomain.com\jane_admin" as the user name.
 
-  
-
 
 
 <img width="1436" alt="Screen Shot 2023-07-12 at 2 29 00 PM" src="https://github.com/SiclaitGitHub/configure-ad/assets/139138443/a629673e-b5ea-411e-8fde-a124a80ee51d">
 
 13. Change DNS Server settings for VM1 in Azure
+
+A DNS server, also known as a Domain Name System server, is a critical component of the internet infrastructure that translates human-readable domain names into their corresponding IP addresses. DNS serves as a distributed hierarchical system, allowing users to access websites, services, and resources using easy-to-remember domain names (like www.example.com) rather than numerical IP addresses (like 192.0.2.1).
+
+When you enter a domain name in your web browser or any other network application, your computer first contacts a DNS resolver (usually provided by your internet service provider or a public DNS resolver like Google's 8.8.8.8). The resolver then communicates with one or more DNS servers to resolve the domain name to its corresponding IP address.
 
 - Go to VM1 in Azure.
 - Click on the "Networking" tab on the VM1 window in Azure.
